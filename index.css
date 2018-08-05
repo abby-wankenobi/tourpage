@@ -51,12 +51,14 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
+  margin-bottom: 60px;
 }
 
 .heading-primary-main {
@@ -113,6 +115,13 @@ body {
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  
 }
 
 .btn-white {
