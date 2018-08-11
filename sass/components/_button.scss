@@ -54,3 +54,18 @@
     animation-fill-mode: backwards;
   }
 }
+
+.btn-test {
+  &:link,
+  &:visited {
+
+  }
+
+  &.hover {
+
+  }
+
+  &:active {
+    
+  }
+}
